@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box; /* damit, die vCard die selbe größe hat, wie wir es bestimmt haben */
+}
+
+body {
+	background-color: #fff;
+	font-size: 16px;
+}
+
+/* RESET */
+
+html, body, h1, h2, h3, p, img:hover {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* TYPO */
+
+h1{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.RingDing {
+	background-color: #0B7D89;
+	height: 300px;
+	width: 1920px;
+}
+
+.Headline {
+	margin-top: -160px;
+	margin-left: 750px;
+	font-size: 72pt;
+	font-family: English Essay;
+	color: #fff;
+}
+
+.Kacheln {
+	height: 250px;
+	width: 450px;
+	background-color: #0B7D89;
+}
+
+.KachelnText {
+	height: 250px;
+	width: 450px;
+	background-color: #0B7D89;
+}
