@@ -5,6 +5,7 @@
 body {
 	background-color: #fff;
 	font-size: 16px;
+	font-family: English Essay;
 }
 
 /* RESET */
@@ -41,14 +42,33 @@ h2{
 	color: #fff;
 }
 
+.nav {
+	margin-top: 40px;
+	font-size: 24pt;
+	position: center;
+	color: #0B7D89;
+	margin-left: 170px;
+}
+
+.Raster {
+	margin-top: 120px;
+	margin-left: 80px;
+}
+
 .Kacheln {
+	float: left;
 	height: 250px;
 	width: 450px;
 	background-color: #0B7D89;
 }
 
 .KachelnText {
+	float: left;
 	height: 250px;
 	width: 450px;
-	background-color: #0B7D89;
+	border: 100px;
+	border-color: #4E4B9B;
+
+.clear {
+	clear: both;
 }
