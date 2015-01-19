@@ -6,6 +6,7 @@ body {
 	background-color: #fff;
 	font-size: 16px;
 	font-family: English Essay;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 /* RESET */
@@ -94,14 +95,13 @@ h2{
   	color: #4E4B9B;
   	font-size: medium;
   	font-size: 14pt;
-
+}
 .clear {
 	clear: both;
 }
 
-img {
-	margin-top: 130px;
-	margin-left: 220px;
-	padding-left: 220px;
-	padding-top: 130px;
+.Bild {
+	width:90px;
+	height:90px;
+	margin: 80px auto 0px auto;
 }
