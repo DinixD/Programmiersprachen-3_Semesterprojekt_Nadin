@@ -37,21 +37,40 @@ h2{
 .Headline {
 	margin-top: -160px;
 	margin-left: 750px;
-	font-size: 72pt;
+	font-size: 50pt;
 	font-family: English Essay;
 	color: #fff;
 }
-
-.nav {
-	margin-top: 40px;
-	font-size: 24pt;
-	position: center;
-	color: #0B7D89;
+.nav1 {
+	float: left;
+	margin-top: 80px;
 	margin-left: 170px;
+	position: center;
+	font-size: 18pt;
+	color: #0B7D89;	
+
+	.clear {
+	clear: both;
+}
 }
 
+.nav {
+	float: left;
+	margin-top: 80px;
+	margin-left: 340px;
+	position: center;
+	font-size: 18pt;
+	color: #0B7D89;	
+
+	.clear {
+	clear: both;
+}
+
+}
+
+
 .Raster {
-	margin-top: 120px;
+	margin-top: 180px;
 	margin-left: 80px;
 }
 
@@ -66,9 +85,23 @@ h2{
 	float: left;
 	height: 250px;
 	width: 450px;
-	border: 100px;
-	border-color: #4E4B9B;
+	border-width:3px;
+  	border-style:solid;
+  	border-color:#4E4B9B;
+  	padding:2.5em;
+  	text-align:justify;
+  	font-family: English Essay;
+  	color: #4E4B9B;
+  	font-size: medium;
+  	font-size: 14pt;
 
 .clear {
 	clear: both;
+}
+
+img {
+	margin-top: 130px;
+	margin-left: 220px;
+	padding-left: 220px;
+	padding-top: 130px;
 }
