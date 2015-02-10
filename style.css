@@ -2,13 +2,6 @@
 	box-sizing: border-box; /* damit, die vCard die selbe größe hat, wie wir es bestimmt haben */
 }
 
-body {
-	background-color: #fff;
-	font-size: 16px;
-	font-family: English Essay;
-	-webkit-font-smoothing: subpixel-antialiased;
-}
-
 /* RESET */
 
 html, body, h1, h2, h3, p, img:hover {
@@ -17,91 +10,67 @@ html, body, h1, h2, h3, p, img:hover {
 	border: none;
 }
 
+body {
+	background-color: #323232;
+	font-size: 20pt;
+	font-family: Gotham;
+	color: #fff;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
 /* TYPO */
 
 h1{
-	font-size: 18px;
+	font-size: 50pt;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 24pt;
+	font-weight: book;
 }
 
-.RingDing {
-	background-color: #0B7D89;
-	height: 300px;
+/* KLASSEN */
+
+.HowCome {
+	padding-top: 50px;
 	width: 1920px;
-}
-
-.Headline {
-	margin-top: -160px;
-	margin-left: 750px;
-	font-size: 50pt;
-	font-family: English Essay;
-	color: #fff;
-}
-.nav1 {
-	float: left;
-	margin-top: 80px;
-	margin-left: 170px;
-	position: center;
-	font-size: 18pt;
-	color: #0B7D89;	
-
-	.clear {
-	clear: both;
-}
+	height: 200px;
+	background-color: #95C11F;
 }
 
 .nav {
-	float: left;
-	margin-top: 80px;
-	margin-left: 340px;
-	position: center;
-	font-size: 18pt;
-	color: #0B7D89;	
-
-	.clear {
-	clear: both;
+	width: 1920px;
+	height: 135px;
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 25px;
 }
 
+.nav-item {
+	margin-right: 50px;
+	margin-left: 50px;	
 }
 
-
-.Raster {
-	margin-top: 180px;
-	margin-left: 80px;
+.Aufgabe {
+	width: 960px;
+	height: 300px;
+	margin-left: 500px;
 }
 
-.Kacheln {
-	float: left;
-	height: 250px;
-	width: 450px;
-	background-color: #0B7D89;
+.textAufgabe {
+	width: 890px;
+	height: 350px;
+	padding-top: 75px;
+	margin-left: 75px;
+	font-size: 16pt;
 }
 
-.KachelnText {
-	float: left;
-	height: 250px;
-	width: 450px;
-	border-width:3px;
-  	border-style:solid;
-  	border-color:#4E4B9B;
-  	padding:2.5em;
-  	text-align:justify;
-  	font-family: English Essay;
-  	color: #4E4B9B;
-  	font-size: medium;
-  	font-size: 14pt;
-}
-.clear {
-	clear: both;
-}
-
-.Bild {
-	width:90px;
-	height:90px;
-	margin: 80px auto 0px auto;
+.textIdee {
+	width: 890px;
+	height: 350px;
+	padding-top: 75px;
+	margin-right: 75px;
+	font-size: 16pt;
 }
