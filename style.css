@@ -2,148 +2,120 @@
 	box-sizing: border-box; /* damit, die vCard die selbe größe hat, wie wir es bestimmt haben */
 }
 
+body {
+	background-color: #fff;
+	font-size: 16px;
+	font-family: Gotham;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
 /* RESET */
 
-html, body, h1, h2, h3, h4, p, img:hover {
+html, body, h1, h2, h3, p, img:hover {
 	margin: 0;
 	padding: 0;
 	border: none;
 }
 
-body {
-	background-color: #fff;
-	font-size: 20pt;
-	font-family: Gotham;
-	color: #323232;
-	-webkit-font-smoothing: subpixel-antialiased;
-}
-
 /* TYPO */
 
 h1{
-	font-size: 50pt;
+	font-size: 18px;
 	font-weight: bold;
 }
 
 h2{
-	font-size: 24pt;
-	font-weight: book;
-	margin-left: 480px;
+	font-size: 18px;
+	font-weight: normal;
 }
 
-/* KLASSEN */
+p{
+	font-size: 16pt;
+	font-weight: normal;
+	font-family: Gotham;
+	color:#95C11F;
+}
 
-.HowCome {
-	padding-top: 50px;
+.RingDing {
+	background-color: #323232;
+	height: 300px;
 	width: 1920px;
-	height: 170px;
-	background-color: #fff;
 }
 
-.nav {
-	width: 1920px;
-	height: 135px;
-	padding-top: 25px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 25px;
-	background-color: #95C11F;
+.Headline {
+	margin-top: -160px;
+	margin-left: 750px;
+	font-size: 50pt;
+	font-family: Gotham;
+	color: #95C11F;
 }
-
-.nav-item {
-	margin-right: 50px;
-	margin-left: 50px;
-}
-
-.Aufgabe {
-	width: 1920px;
-	height: 400px;
-	background-color: #fff;
-}
-
-.textAufgabe {
-	width: 435px;
-	height: 260px;
-	padding-top: 10px;
-	margin-left: 480px;
-	font-size: 14pt;
-}
-
-.Idee {
-	width: 1920px;
-	height: 400px;
-	background-color: #F5F6F7;
-}
-
-.Bild {
-	margin-left: 480px;
-    height: 100%;
-    width: 435px;
-    float: left;
-}
-
-.h2rechts {
-	margin-left: 1040px;
-}
-
-.textIdee {
-	width: 435px;
-	height: 260px;
-	padding-top: 10px;
-	margin-left: 125px;
-	font-size: 14pt;
+.nav1 {
 	float: left;
+	margin-top: 120px;
+	margin-left: 170px;
+	position: center;
+	font-size: 18pt;
+	color: #323232;	
 
 	.clear {
 	clear: both;
-	}
-
+}
 }
 
-
-.Umsetzung {
-	width: 1920px;
-	height: 400px;
-	background-color: #fff;
-}
-
-.textUmsetzung {
-	width: 435px;
-	height: 260px;
-	padding-top: 10px;
-	margin-left: 480px;
-	font-size: 14pt;
-}
-
-.Macher {
-	width: 1920px;
-	height: 400px;
-	background-color: #F5F6F7;
-}
-
-.textMacherEge {
-	width: 435px;
-	height: 260px;
-	padding-top: 100px;
-	margin-left: 300px;
-	font-size: 14pt;
+.nav {
 	float: left;
+	margin-top: 120px;
+	margin-left: 340px;
+	position: center;
+	font-size: 18pt;
+	color: #323232;	
+
+	.clear {
+	clear: both;
 }
 
-.textMacherCatrine {
-	width: 435px;
-	height: 260px;
-	padding-top: 100px;
-	margin-left: 10px;
-	font-size: 14pt;
-	float: left;
 }
 
-.textMacherNadin {
-	width: 435px;
-	height: 260px;
-	padding-top: 100px;
-	margin-left: 10px;
-	font-size: 14pt;
+
+.Raster {
+	margin-top: 180px;
+	margin-left: 80px;
+}
+
+.Kacheln {
 	float: left;
+	height: 250px;
+	width: 450px;
+	background-color: #323232;
+}
+
+.KachelnText {
+	float: left;
+	height: 250px;
+	width: 450px;
+	border-width:3px;
+  	border-style:solid;
+  	border-color:#95C11F;
+  	padding:2.5em;
+  	text-align:justify;
+  	font-family: Gotham;
+  	color: #95C11F;
+  	font-size: medium;
+  	font-size: 14pt;
+}
+.clear {
+	clear: both;
+}
+
+.Bild {
+	width:90px;
+	height:90px;
+	margin: 80px auto 0px auto;
+}
+
+.Profilbilder {
+	margin-top: 50px;
+	margin-left: 15px;
+	float: left;
+
 }
