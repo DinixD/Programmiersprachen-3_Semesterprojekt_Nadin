@@ -4,7 +4,7 @@
 
 /* RESET */
 
-html, body, h1, h2, h3, p, img:hover {
+html, body, h1, h2, h3, h4, p, img:hover {
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -37,7 +37,7 @@ h2{
 	padding-top: 50px;
 	width: 1920px;
 	height: 170px;
-	background-color: #95C11F;
+	background-color: #fff;
 }
 
 .nav {
@@ -47,6 +47,7 @@ h2{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 25px;
+	background-color: #95C11F;
 }
 
 .nav-item {
@@ -92,8 +93,57 @@ h2{
 	margin-left: 125px;
 	font-size: 14pt;
 	float: left;
+
+	.clear {
+	clear: both;
+	}
+
 }
 
-.clear {
-	clear: both;
+
+.Umsetzung {
+	width: 1920px;
+	height: 400px;
+	background-color: #fff;
+}
+
+.textUmsetzung {
+	width: 435px;
+	height: 260px;
+	padding-top: 10px;
+	margin-left: 480px;
+	font-size: 14pt;
+}
+
+.Macher {
+	width: 1920px;
+	height: 400px;
+	background-color: #F5F6F7;
+}
+
+.textMacherEge {
+	width: 435px;
+	height: 260px;
+	padding-top: 100px;
+	margin-left: 300px;
+	font-size: 14pt;
+	float: left;
+}
+
+.textMacherCatrine {
+	width: 435px;
+	height: 260px;
+	padding-top: 100px;
+	margin-left: 10px;
+	font-size: 14pt;
+	float: left;
+}
+
+.textMacherNadin {
+	width: 435px;
+	height: 260px;
+	padding-top: 100px;
+	margin-left: 10px;
+	font-size: 14pt;
+	float: left;
 }
