@@ -36,7 +36,7 @@ p{
 	color:#95C11F;
 }
 
-.RingDing {
+.HowCome {
 	background-color: #323232;
 	height: 300px;
 	width: 1920px;
@@ -97,7 +97,6 @@ p{
   	border-style:solid;
   	border-color:#95C11F;
   	padding:2.5em;
-  	text-align:justify;
   	font-family: Gotham;
   	color: #95C11F;
   	font-size: medium;
@@ -114,8 +113,26 @@ p{
 }
 
 .Profilbilder {
-	margin-top: 50px;
-	margin-left: 15px;
-	float: left;
+	height: 250px;
+	width: 450px;
+	padding-top: 50px;
+	padding-left: 40px;
+}
 
+.textProfil {
+	width: 118px;
+	height: 110px;
+	padding-left: 40px;
+	margin-left: -4px;
+	float: left;
+}
+
+.bottom {
+	width: 1920px;
+	height: 300px;
+	padding-top: 280px;
+	padding-left: 900px;
+	font-family: Gotham;
+	font-size: 10pt;
+	color: #323232;
 }
